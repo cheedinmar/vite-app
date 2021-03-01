@@ -10,7 +10,8 @@
             </div>
         </div>
         <div class=" w-full lg:w-1/2 lg:h-brand ">
-            <img src="./images/Background.png" alt="Happy Couple" class="lg:h-brand w-full">
+            <img src="../../assets/images/Background.png" alt="Happy Couple" class="lg:h-brand w-full">
+            
         </div>
     </div>
 </section>

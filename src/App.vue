@@ -1,24 +1,36 @@
 <template>
-  <navBar></navBar>
-  <pageBody></pageBody>
-  <footerBar></footerBar>
+<div>
+  <navbar></navbar>
+      <router-view/>
+  <footah></footah>
+</div>
 
 </template>
 
 
 <script>
-import navBar from "./components/nav.vue"
-import pageBody from "./components/body.vue"
-import footerBar from "./components/footer.vue"
+import navbar from "./components/home/nav.vue"
+import footah from "./components/home/footer.vue"
+
 export default{
   components:{
-  navBar,
-  pageBody,
-  footerBar
-},
+  navbar,
+  footah 
+}
 }
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
 </script>
+<style scoped>
+#nav a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#nav a.router-link-exact-active{
+  color: white;
+  background: crimson;
+
+}
+</style>
 

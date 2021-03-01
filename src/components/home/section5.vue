@@ -4,7 +4,7 @@
             <h2 class="pb-6 text-3xl font-black leading-8 tracking-wide text-center pt-20">Our Best Blogs Ever</h2>
             <p class=" font-bold text-center pb-20">“Try our blog to find the best tips and tricks to select your gift”</p>
             <div class="flex flex-col lg:flex-row">
-                <img src="./images/Media.png" alt="happyCouple">
+                <img src="../../assets/images/Media.png" alt="happyCouple">
                 <div class="flex flex-col bg-gray-900 justify-center items-start px-6 py-14 lg:pl-16">
                     <p class="text-white text-sm ">Mr. John Doe</p>
                     <h1 class="text-white pb-14 pr-14">The best way to wish your wife</h1>
